@@ -24,7 +24,7 @@ hello.default = function(x) {
 #' @rdname hello
 #' @export
 hello.character = function(x) {
-  cat('Hi! I love characters!\n')
+  cat('Hi! I love characters! You didn\'t notice me change!\n')
 }
 
 
